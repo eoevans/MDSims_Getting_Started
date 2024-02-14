@@ -1,0 +1,43 @@
+TITLE      Hexane
+REMARK   1 File created by GaussView 6.0.16
+HETATM    1  C   HXE     0       1.421   2.912   0.000                       C
+HETATM    2  H   HXE     0       0.906   3.306   0.886                       H
+HETATM    3  H   HXE     0       0.906   3.306  -0.886                       H
+HETATM    4  H   HXE     0       2.441   3.313   0.000                       H
+HETATM    5  C   HXE     0       1.421   1.375   0.000                       C
+HETATM    6  H   HXE     0       1.970   1.008  -0.880                       H
+HETATM    7  H   HXE     0       1.970   1.008   0.880                       H
+HETATM    8  C   HXE     0       0.005   0.770   0.000                       C
+HETATM    9  H   HXE     0      -0.545   1.137  -0.880                       H
+HETATM   10  H   HXE     0      -0.545   1.137   0.880                       H
+HETATM   11  C   HXE     0      -0.005  -0.770   0.000                       C
+HETATM   12  H   HXE     0       0.545  -1.137   0.880                       H
+HETATM   13  H   HXE     0       0.545  -1.137  -0.880                       H
+HETATM   14  C   HXE     0      -1.421  -1.375   0.000                       C
+HETATM   15  H   HXE     0      -1.970  -1.008  -0.880                       H
+HETATM   16  H   HXE     0      -1.970  -1.008   0.880                       H
+HETATM   17  C   HXE     0      -1.421  -2.912   0.000                       C
+HETATM   18  H   HXE     0      -0.906  -3.306   0.886                       H
+HETATM   19  H   HXE     0      -2.441  -3.313   0.000                       H
+HETATM   20  H   HXE     0      -0.906  -3.306  -0.886                       H
+END
+CONECT    1    2    3    4    5
+CONECT    2    1
+CONECT    3    1
+CONECT    4    1
+CONECT    5    1    6    7    8
+CONECT    6    5
+CONECT    7    5
+CONECT    8    5    9   10   11
+CONECT    9    8
+CONECT   10    8
+CONECT   11    8   12   13   14
+CONECT   12   11
+CONECT   13   11
+CONECT   14   11   15   16   17
+CONECT   15   14
+CONECT   16   14
+CONECT   17   14   18   19   20
+CONECT   18   17
+CONECT   19   17
+CONECT   20   17

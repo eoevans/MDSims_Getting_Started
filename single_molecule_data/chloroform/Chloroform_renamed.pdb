@@ -1,0 +1,13 @@
+TITLE      CFL
+REMARK   1 File created by GaussView 6.0.16
+HETATM    1 C1   CFL     0      -0.000   0.000   0.470                       C
+HETATM    2 H1   CFL     0      -0.000  -0.000   1.538                       H
+HETATM    3 Cl1  CFL     0      -1.213   1.239  -0.086                      Cl
+HETATM    4 Cl2  CFL     0       1.679   0.431  -0.085                      Cl
+HETATM    5 Cl3  CFL     0      -0.466  -1.669  -0.085                      Cl
+END
+CONECT    1    2    3    4    5
+CONECT    2    1
+CONECT    3    1
+CONECT    4    1
+CONECT    5    1

@@ -1,0 +1,18 @@
+TITLE      TOL                                                                  
+REMARK   1 File created by GaussView 6.0.16                                     
+HETATM    1  C1  TOL     0      -1.895  -0.000   0.007  1.00 10.00           C  
+HETATM    2  C2  TOL     0      -1.195  -1.198   0.002  1.00 10.00           C  
+HETATM    3  C3  TOL     0       0.193  -1.195  -0.008  1.00 10.00           C  
+HETATM    4  C4  TOL     0       0.907   0.000  -0.010  1.00 10.00           C  
+HETATM    5  C5  TOL     0       0.192   1.196  -0.008  1.00 10.00           C  
+HETATM    6  C6  TOL     0      -1.195   1.198   0.002  1.00 10.00           C  
+HETATM    7  H1  TOL     0      -2.968  -0.001   0.012  1.00 10.00           H  
+HETATM    8  H2  TOL     0      -1.726  -2.131   0.002  1.00 10.00           H  
+HETATM    9  H3  TOL     0       0.725  -2.129  -0.015  1.00 10.00           H  
+HETATM   10  H4  TOL     0       0.724   2.129  -0.015  1.00 10.00           H  
+HETATM   11  H5  TOL     0      -1.727   2.130   0.002  1.00 10.00           H  
+HETATM   12  C7  TOL     0       2.417   0.000   0.008  1.00 10.00           C  
+HETATM   13  H6  TOL     0       2.795  -0.024   1.026  1.00 10.00           H  
+HETATM   14  H7  TOL     0       2.817  -0.863  -0.509  1.00 10.00           H  
+HETATM   15  H8  TOL     0       2.817   0.887  -0.467  1.00 10.00           H  
+END                                                                             

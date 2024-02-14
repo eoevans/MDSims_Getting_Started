@@ -1,0 +1,17 @@
+TITLE      GLC                                                                  
+REMARK   1 File created by GaussView 6.0.16                                     
+HETATM    1  C1  GLC     0       1.280  -0.719   0.195  1.00 10.00           C  
+HETATM    2  H1  GLC     0       1.368  -1.706  -0.233  1.00 10.00           H  
+HETATM    3  H2  GLC     0       1.272  -0.804   1.276  1.00 10.00           H  
+HETATM    4  C2  GLC     0       0.011  -0.034  -0.269  1.00 10.00           C  
+HETATM    5  H3  GLC     0       0.006   0.033  -1.349  1.00 10.00           H  
+HETATM    6  C3  GLC     0      -1.254  -0.724   0.191  1.00 10.00           C  
+HETATM    7  H4  GLC     0      -1.260  -0.815   1.271  1.00 10.00           H  
+HETATM    8  H5  GLC     0      -1.338  -1.710  -0.251  1.00 10.00           H  
+HETATM    9  O1  GLC     0       2.423   0.009  -0.239  1.00 10.00           O  
+HETATM   10  H6  GLC     0       2.351   0.929   0.003  1.00 10.00           H  
+HETATM   11  O2  GLC     0       0.070   1.285   0.290  1.00 10.00           O  
+HETATM   12  H7  GLC     0      -0.716   1.788   0.097  1.00 10.00           H  
+HETATM   13  O3  GLC     0      -2.332   0.120  -0.244  1.00 10.00           O  
+HETATM   14  H8  GLC     0      -3.193  -0.170   0.031  1.00 10.00           H  
+END                                                                             

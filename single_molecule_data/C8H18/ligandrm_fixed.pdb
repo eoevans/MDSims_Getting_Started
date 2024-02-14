@@ -1,0 +1,30 @@
+REMARK  GENERATE LIGAND                                                               
+REMARK   DATE:     2/ 6/24     10:52:55      CREATED BY USER: apache                  
+HETATM    1  C1  OCTNO   1       4.139  -2.923   0.000  1.00  0.00      OCTN
+HETATM    2  H11 OCTNO   1       5.249  -2.925   0.004  1.00  0.00      OCTN
+HETATM    3  H12 OCTNO   1       3.785  -3.466  -0.903  1.00  0.00      OCTN
+HETATM    4  H13 OCTNO   1       3.779  -3.469   0.899  1.00  0.00      OCTN
+HETATM    5  C2  OCTNO   1       3.600  -1.493   0.000  1.00  0.00      OCTN
+HETATM    6  H21 OCTNO   1       3.978  -0.952  -0.898  1.00  0.00      OCTN
+HETATM    7  H22 OCTNO   1       3.977  -0.953   0.899  1.00  0.00      OCTN
+HETATM    8  C3  OCTNO   1       2.071  -1.446  -0.000  1.00  0.00      OCTN
+HETATM    9  H31 OCTNO   1       1.688  -1.980   0.899  1.00  0.00      OCTN
+HETATM   10  H32 OCTNO   1       1.688  -1.980  -0.899  1.00  0.00      OCTN
+HETATM   11  C4  OCTNO   1       1.530  -0.015  -0.000  1.00  0.00      OCTN
+HETATM   12  H41 OCTNO   1       1.908   0.522  -0.899  1.00  0.00      OCTN
+HETATM   13  H42 OCTNO   1       1.908   0.522   0.899  1.00  0.00      OCTN
+HETATM   14  C5  OCTNO   1       0.000   0.015  -0.000  1.00  0.00      OCTN
+HETATM   15  H51 OCTNO   1      -0.377  -0.522   0.899  1.00  0.00      OCTN
+HETATM   16  H52 OCTNO   1      -0.377  -0.522  -0.899  1.00  0.00      OCTN
+HETATM   17  C6  OCTNO   1      -0.540   1.446  -0.000  1.00  0.00      OCTN
+HETATM   18  H61 OCTNO   1      -0.157   1.980  -0.899  1.00  0.00      OCTN
+HETATM   19  H62 OCTNO   1      -0.157   1.980   0.899  1.00  0.00      OCTN
+HETATM   20  C7  OCTNO   1      -2.069   1.493  -0.001  1.00  0.00      OCTN
+HETATM   21  H71 OCTNO   1      -2.447   0.954   0.898  1.00  0.00      OCTN
+HETATM   22  H72 OCTNO   1      -2.447   0.953  -0.899  1.00  0.00      OCTN
+HETATM   23  C8  OCTNO   1      -2.607   2.924  -0.002  1.00  0.00      OCTN
+HETATM   24  H81 OCTNO   1      -2.249   3.468  -0.903  1.00  0.00      OCTN
+HETATM   25  H82 OCTNO   1      -2.249   3.469   0.899  1.00  0.00      OCTN
+HETATM   26  H83 OCTNO   1      -3.717   2.927  -0.002  1.00  0.00      OCTN
+TER      27      OCTN     1
+END

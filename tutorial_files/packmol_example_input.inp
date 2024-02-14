@@ -1,0 +1,9 @@
+tolerance 2.0
+filetype pdb
+seed -1
+output MDSim/data/box_data/acetone/CHARMM/box1/acetone_box.pdb
+structure MDSim/data/single_molecule_data/acetone/CHARMM/acetone_valid.pdb
+   number 525
+   resnumbers 0
+   inside cube 0. 0. 0. 40.
+end structure

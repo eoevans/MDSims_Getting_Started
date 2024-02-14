@@ -1,0 +1,35 @@
+TITLE      NDEC                                                                 
+REMARK   1 File created by GaussView 6.0.16                                     
+HETATM    1  C1  NDEC    0       2.814   5.073   0.000  1.00 10.00           C  
+HETATM    2  H1X NDEC    0       2.297   5.464   0.886  1.00 10.00           H  
+HETATM    3  H1Y NDEC    0       2.297   5.464  -0.886  1.00 10.00           H  
+HETATM    4  H1X NDEC    0       3.832   5.481   0.000  1.00 10.00           H  
+HETATM    5  C2  NDEC    0       2.824   3.536   0.000  1.00 10.00           C  
+HETATM    6  H2X NDEC    0       3.376   3.172  -0.880  1.00 10.00           H  
+HETATM    7  H2Y NDEC    0       3.376   3.172   0.880  1.00 10.00           H  
+HETATM    8  C3  NDEC    0       1.412   2.922   0.000  1.00 10.00           C  
+HETATM    9  H3X NDEC    0       0.859   3.286  -0.880  1.00 10.00           H  
+HETATM   10  H3Y NDEC    0       0.859   3.286   0.880  1.00 10.00           H  
+HETATM   11  C4  NDEC    0       1.412   1.383   0.000  1.00 10.00           C  
+HETATM   12  H4X NDEC    0       1.965   1.020   0.880  1.00 10.00           H  
+HETATM   13  H4Y NDEC    0       1.965   1.020  -0.880  1.00 10.00           H  
+HETATM   14  C5  NDEC    0      -0.000   0.770   0.000  1.00 10.00           C  
+HETATM   15  H5X NDEC    0      -0.553   1.132  -0.880  1.00 10.00           H  
+HETATM   16  H5Y NDEC    0      -0.553   1.132   0.880  1.00 10.00           H  
+HETATM   17  C6  NDEC    0       0.000  -0.770   0.000  1.00 10.00           C  
+HETATM   18  H6X NDEC    0       0.553  -1.132   0.880  1.00 10.00           H  
+HETATM   19  H6Y NDEC    0       0.553  -1.132  -0.880  1.00 10.00           H  
+HETATM   20  C7  NDEC    0      -1.412  -1.383   0.000  1.00 10.00           C  
+HETATM   21  H7X NDEC    0      -1.965  -1.020  -0.880  1.00 10.00           H  
+HETATM   22  H7Y NDEC    0      -1.965  -1.020   0.880  1.00 10.00           H  
+HETATM   23  C8  NDEC    0      -1.412  -2.922   0.000  1.00 10.00           C  
+HETATM   24  H8X NDEC    0      -0.859  -3.286   0.880  1.00 10.00           H  
+HETATM   25  H8Y NDEC    0      -0.859  -3.286  -0.880  1.00 10.00           H  
+HETATM   26  C9  NDEC    0      -2.824  -3.536   0.000  1.00 10.00           C  
+HETATM   27  H9X NDEC    0      -3.376  -3.172  -0.880  1.00 10.00           H  
+HETATM   28  H9Y NDEC    0      -3.376  -3.172   0.880  1.00 10.00           H  
+HETATM   29  C10 NDEC    0      -2.814  -5.073   0.000  1.00 10.00           C  
+HETATM   30  H10XNDEC    0      -2.297  -5.464   0.886  1.00 10.00           H  
+HETATM   31  H10YNDEC    0      -3.832  -5.481   0.000  1.00 10.00           H  
+HETATM   32  H10ZNDEC    0      -2.297  -5.464  -0.886  1.00 10.00           H  
+END                                                                             

@@ -1,0 +1,8 @@
+pdb MDSim/data/box_data/acetone/CHARMM/box1/acetone_box.pdb
+package require psfgen
+topology MDSim/CHARMM_ff/acetone.str
+topology MDSim/CHARMM_ff/top_all36_cgenff.rtf
+segment A {pdb MDSim/data/box_data/acetone/CHARMM/box1/acetone_box.pdb}
+coordpdb MDSim/data/box_data/acetone/CHARMM/box1/acetone_box.pdb main
+guesscoord
+writepsf MDSim/data/box_data/acetone/CHARMM/box1/acetone_box.psf

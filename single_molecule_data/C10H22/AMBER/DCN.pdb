@@ -1,0 +1,67 @@
+TITLE      DCN
+REMARK   1 File created by GaussView 6.0.16
+HETATM    1  C   DCN     0       2.814   5.073   0.000                       C
+HETATM    2  H   DCN     0       2.297   5.464   0.886                       H
+HETATM    3  H   DCN     0       2.297   5.464  -0.886                       H
+HETATM    4  H   DCN     0       3.832   5.481   0.000                       H
+HETATM    5  C   DCN     0       2.824   3.536   0.000                       C
+HETATM    6  H   DCN     0       3.376   3.172  -0.880                       H
+HETATM    7  H   DCN     0       3.376   3.172   0.880                       H
+HETATM    8  C   DCN     0       1.412   2.922   0.000                       C
+HETATM    9  H   DCN     0       0.859   3.286  -0.880                       H
+HETATM   10  H   DCN     0       0.859   3.286   0.880                       H
+HETATM   11  C   DCN     0       1.412   1.383   0.000                       C
+HETATM   12  H   DCN     0       1.965   1.020   0.880                       H
+HETATM   13  H   DCN     0       1.965   1.020  -0.880                       H
+HETATM   14  C   DCN     0      -0.000   0.770   0.000                       C
+HETATM   15  H   DCN     0      -0.553   1.132  -0.880                       H
+HETATM   16  H   DCN     0      -0.553   1.132   0.880                       H
+HETATM   17  C   DCN     0       0.000  -0.770   0.000                       C
+HETATM   18  H   DCN     0       0.553  -1.132   0.880                       H
+HETATM   19  H   DCN     0       0.553  -1.132  -0.880                       H
+HETATM   20  C   DCN     0      -1.412  -1.383   0.000                       C
+HETATM   21  H   DCN     0      -1.965  -1.020  -0.880                       H
+HETATM   22  H   DCN     0      -1.965  -1.020   0.880                       H
+HETATM   23  C   DCN     0      -1.412  -2.922   0.000                       C
+HETATM   24  H   DCN     0      -0.859  -3.286   0.880                       H
+HETATM   25  H   DCN     0      -0.859  -3.286  -0.880                       H
+HETATM   26  C   DCN     0      -2.824  -3.536   0.000                       C
+HETATM   27  H   DCN     0      -3.376  -3.172  -0.880                       H
+HETATM   28  H   DCN     0      -3.376  -3.172   0.880                       H
+HETATM   29  C   DCN     0      -2.814  -5.073   0.000                       C
+HETATM   30  H   DCN     0      -2.297  -5.464   0.886                       H
+HETATM   31  H   DCN     0      -3.832  -5.481   0.000                       H
+HETATM   32  H   DCN     0      -2.297  -5.464  -0.886                       H
+END
+CONECT    1    2    3    4    5
+CONECT    2    1
+CONECT    3    1
+CONECT    4    1
+CONECT    5    1    6    7    8
+CONECT    6    5
+CONECT    7    5
+CONECT    8    5    9   10   11
+CONECT    9    8
+CONECT   10    8
+CONECT   11    8   12   13   14
+CONECT   12   11
+CONECT   13   11
+CONECT   14   11   15   16   17
+CONECT   15   14
+CONECT   16   14
+CONECT   17   14   18   19   20
+CONECT   18   17
+CONECT   19   17
+CONECT   20   17   21   22   23
+CONECT   21   20
+CONECT   22   20
+CONECT   23   20   24   25   26
+CONECT   24   23
+CONECT   25   23
+CONECT   26   23   27   28   29
+CONECT   27   26
+CONECT   28   26
+CONECT   29   26   30   31   32
+CONECT   30   29
+CONECT   31   29
+CONECT   32   29

@@ -1,0 +1,10 @@
+tolerance 2.0
+filetype pdb
+seed -1
+output hexane_box_1.pdb
+
+structure HEXANE_out.pdb
+    number 295
+    resnumbers 0
+    inside box 0. 0. 0. 40. 40. 40.
+end structure

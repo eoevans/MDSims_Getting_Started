@@ -1,0 +1,13 @@
+TITLE      ACE                                                                  
+REMARK   1 File created by GaussView 6.0.16                                     
+HETATM    1  C1  ACE     0       1.288  -0.607  -0.000  1.00 10.00           C  
+HETATM    2  H1  ACE     0       1.332  -1.249   0.875  1.00 10.00           H  
+HETATM    3  H2  ACE     0       2.134   0.065  -0.000  1.00 10.00           H  
+HETATM    4  H3  ACE     0       1.332  -1.250  -0.875  1.00 10.00           H  
+HETATM    5  C2  ACE     0       0.000   0.186  -0.000  1.00 10.00           C  
+HETATM    6  C3  ACE     0      -1.288  -0.607   0.000  1.00 10.00           C  
+HETATM    7  H4  ACE     0      -2.134   0.066   0.001  1.00 10.00           H  
+HETATM    8  H5  ACE     0      -1.332  -1.249  -0.875  1.00 10.00           H  
+HETATM    9  H6  ACE     0      -1.332  -1.250   0.875  1.00 10.00           H  
+HETATM   10  O1  ACE     0       0.000   1.380   0.000  1.00 10.00           O  
+END                                                                             
