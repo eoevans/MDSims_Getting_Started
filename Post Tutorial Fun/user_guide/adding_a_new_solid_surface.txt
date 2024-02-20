@@ -1,0 +1,32 @@
+Welcome to the guide to add a new solid surface into the workflow. This will be useful when adding a new type of surface or 
+an existing type of surface with a new size. 
+
+1. go here: https://www.charmm-gui.org/ and make an account/login
+2. you should see a box on the left of the screen labeled "Input Generator". Under this heading, click Nanomaterial modeler 
+3. Input the type of material, its shape, and its dimensions. Generally we want our surfaces created in a vacuum rather than solvated.
+   When you're done, hit next
+4. Click on "step1_nanomaterial.pdb" to download the pdb. Click on "step1_nanomaterial.str". This one doesn't download atutomatically.
+   On Windows, I do ctrl+a ctrl+c to copy everything, then open a file here ~/MDSim/data/surface_data/surface_type/surface_size/ in
+   vmd and paste everything. This should be named the same as "surface_type.str". Do the same with "step1_nanomaterial.psf". This 
+   should be called "surface_type_valid.psf" (for aluminum surfaces, surface_type is just "aluminum")
+5. Open another instance of Visual Studio Code. In the explorer, open the folder that contains your pdb; copy these and paste it 
+   here ~/MDSim/data/surface_data/surface_type/surface_size/.
+6. You might need to change the atom and residue name of the pdb. I had to change both with Aluminum, as they did not match the 
+   residue and segment names that are found in top_interface.rtf. You should ctrl+f for the atom names and residue names in
+   top_interface.rtf. The atom name column (column 3) in the pdb should match the atom name in rft (in the rft, locate the correct
+   residue. The atom name directly follows "ATOM" in a row). The residue name in the pdb (column 4) should match the residue nmae in
+   the rtf (found directly after RESI). Run replace.py with the following command. "python MDSim/scripts/replace.py 
+   path_to_CHARMM-GUI_pdb path_to_renamed_pdb to_replace replacement"
+7. Run shift_surface.py in your MDAnalysis conda environment with the following command. "python MDSim/scripts/shift_surface.py 
+   path_to_unshifted_pdb surface_type_valid.pdb path_to_CHARMM-GUI_str". This is fast, no need to request nodes for this. The minimum
+   coordinates of the surface should be shifted to 0,0,0. After this, the pdb is ready to be used, so ensure the naming matches the 
+   psf. Ex. "surface_type_valid.pdb" 
+8. in constants.py, you will find the function get_segment_name. If you are adding a new type of surface, add a new entry into the 
+   dictionary with key = "MDSim/data/surface_data/surface_type" and dict[key] = "segment_name". The segment name is the final column
+   in the pdb. After this step, your molecule should have a pdb and topology and parameter files. The atom order, residue name
+   and atom name (H1, C1, etc.) in the pdb should match the topology file. 
+
+NOTE: If you are just doing a raw simulation, ie you don't care about using MDSim_Automate.py, then the only thing you need to do is to
+copy the pdb and psf into the HPC and ensure the residue names are correct. If you are setting up an interfacial simulation, you will
+also need to ensure you know the size of the surface and the coordinates it occupies, so packmol can pack the liquid into the
+appropriate size and at the appropriate coordinates. 
