@@ -1,1 +1,1 @@
-Just some files and scripts to get you started. See Getting Started and the Tutorial folder
+Just some files and scripts to get you started. See the updated getting started link. A student from the Kidwell lab has been finding all of my mistakes in the original file and updating it. I am very appreciative! So the link will take you to the google doc (hopefully)
