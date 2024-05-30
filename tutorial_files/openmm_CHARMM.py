@@ -16,7 +16,7 @@ from datetime import datetime
 
 def get_cutoff_distance(dims):
     # args are box dimensions in A. Returns half the box distance in nm or 1.4 nm per Singer
-    cutoff_distance = 1.4
+    cutoff_distance = 1.4 
     for i in dims:
         if i/20 < cutoff_distance:
             cutoff_distance = i/20
